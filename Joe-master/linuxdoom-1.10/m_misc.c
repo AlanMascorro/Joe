@@ -311,7 +311,7 @@ void M_SaveDefaults (void)
     int		v;
     FILE*	f;
 
-    printf("FUCKING CLANKERS!!! %p\n");    
+    printf("FUCKING CLANKERS!!!! %p\n");    
     f = fopen (defaultfile, "w");
     if (!f)
 	return; // can't write the file, but don't complain
